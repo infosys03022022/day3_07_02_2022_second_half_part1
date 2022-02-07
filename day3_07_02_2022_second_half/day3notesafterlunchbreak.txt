@@ -1,0 +1,37 @@
+Iterations:-
+   1) Initialisation of the counter variable.
+       int ctr=0;
+   2) ctr<10  ( condition check decides whether the execution will enter the loop or not in the first step and in latter steps it decides whether
+to remain within the loop or go out of the loop)
+According to the lines above ctr is intialised with 0 and
+in the condition 0 is compared with value 10 and it less 10.
+So condition is true. As the condition is true it enters the loop.
+Now consider a case where we are writing ctr=11 intially so
+in that case the condition check step becomes false and it wont enter
+the loop.
+3) Re-intialisation of the loop. Which means we need to change the
+value of the ctr which will decide whether the control should be
+continued within the loop or control should move out of the loop.
+------------------------------------------------------------------
+* for     (entry point check)
+
+* while  ( entry point check)
+While entering or at the begining of the loop condition check is 
+being made in that case if the intial condition is false , the
+control wont enter the loop.
+
+* do while ( exit point check) So in case of do while if the
+initial condition is false the loop will execute atleast once
+and at the end as the condition is checked and evaluates as false, 
+the control goes out of the loop.
+
+----------------------------------
+In for loop / while loop
+1) intialisation step and condition check works once.
+2) After that it is the reinitialisation step and the condition check.
+
+
+
+
+
+
